@@ -2,7 +2,7 @@
 
 This is the capstone project of my Google advanced data analytics course. I want to leave my work here to present my understanding and idea. Unlike the previous one (Waze's study), I completed this one with very little guidance. Therefore, I am glad to share my thought here.
 
-As usual, I will leave the full code notebook [here]().
+As usual, I will leave the full code notebook [here](https://www.kaggle.com/datasets/mfaisalqureshi/hr-analytics-and-job-prediction/data), or in my repositories. There are trained model files(.pickle) inside as well.
 
 # Situation
 
