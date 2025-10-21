@@ -51,7 +51,7 @@ We can tell that the turnover rate is about one-sixth, 16.6%.
 
 The satisfaction level in general is pretty high, but there is a high amount of zero scores.
 
-I also created a new feature, which gives me some interesting findings.
+I also created a new feature based on `last_evaluation` to calculate the difference. This makes more sense as it measure the current state, and gives me some interesting findings.
 
 ```
 # Create a new feature
@@ -128,7 +128,7 @@ department does not give a high clear correlation.
 
 As mentioned, this dataset has a large portion of outliers, so this will violate the assumption of logistic regression. I do not want to drop such large amount of data neither, so I chose to use machine learn models instead.
 
-These are the hyperparameters I tried for the models using `GridSearchCV`, I then use `.fit(X_train, y_train)` to train the models.
+These are the hyperparameters I tried for the models using `GridSearchCV`, I then use `.fit(X_train, y_train)` to train the models. Refit is set to recall as our concern is capture the one who is leaving.
 
 ```
 # 1. Instantiate the random forest classifier
